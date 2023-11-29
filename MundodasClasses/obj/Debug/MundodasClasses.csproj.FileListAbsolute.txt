@@ -1,0 +1,7 @@
+C:\Users\donin\OneDrive\Área de Trabalho\.net\MundodasClasses\MundodasClasses\obj\Debug\MundodasClasses.csproj.AssemblyReference.cache
+C:\Users\donin\OneDrive\Área de Trabalho\.net\MundodasClasses\MundodasClasses\obj\Debug\MundodasClasses.csproj.CoreCompileInputs.cache
+C:\Users\donin\OneDrive\Área de Trabalho\.net\MundodasClasses\MundodasClasses\bin\Debug\MundodasClasses.exe.config
+C:\Users\donin\OneDrive\Área de Trabalho\.net\MundodasClasses\MundodasClasses\bin\Debug\MundodasClasses.exe
+C:\Users\donin\OneDrive\Área de Trabalho\.net\MundodasClasses\MundodasClasses\bin\Debug\MundodasClasses.pdb
+C:\Users\donin\OneDrive\Área de Trabalho\.net\MundodasClasses\MundodasClasses\obj\Debug\MundodasClasses.exe
+C:\Users\donin\OneDrive\Área de Trabalho\.net\MundodasClasses\MundodasClasses\obj\Debug\MundodasClasses.pdb
