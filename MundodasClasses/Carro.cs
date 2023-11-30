@@ -8,9 +8,10 @@ namespace MundodasClasses
 {
     public class Carro
     {
-        public Cor Cor;
-        public int Portas;
-        public string Modelo;
+        public string Modelo { get; }
+        public Cor Cor { get; set; }
+        public int Portas { get;  }
+     
         private bool ligado = false; // private = só a classe tem acesso
 
         public bool Ligado // Propriedade: define uma maneira de acessar o atributo
@@ -24,12 +25,10 @@ namespace MundodasClasses
                 ligado = value;
             }
         }
-        public bool Marcha1 = false;
-        public bool Marcha2 = false;
-        public bool Marcha3 = false;
-        public bool Marcha4 = false;
-        public bool Marcha5 = false;
-        public bool MarchaRe = false;
+
+
+        public int[] marchas = new int[] { 0, 1, 2, 3, 4, 5, 6 };
+
         private Cor azul;
         private string v1;
         private int v2;
@@ -55,40 +54,67 @@ namespace MundodasClasses
         public string Ligar()
         {
             Ligado = true;
-      
             return "O carro foi ligado VRUUUUUMMMM";
         }
 
         public string trocarMarchar1()
         {
-            Marcha1 = true;
-            string getMarcha1 = Marcha1 ? "Passou a 1 Marchar" : "Passou para o Neutro";
-            return getMarcha1;
+            //Marcha1 = true;
+            //string getMarcha1 = Marcha1 ? "Passou a 1 Marchar" : "Passou para o Neutro";
+            string passou1 = "passou a marcha " + marchas[1].ToString() + "";
+            return passou1;
            
         }
         public string trocarMarchar2()
         {
-            Marcha2 = true;
-            string getMarcha2 = Marcha2 ? "Passou a 2 Marchar" : "Passou para o Neutro";
-            return getMarcha2;
+            //Marcha2 = true;
+            //string getMarcha2 = Marcha2 ? "Passou a 2 Marchar" : "Passou para o Neutro";
+            //return getMarcha2;
+            string passou2 = "passou a marcha " + marchas[2].ToString() + " ";
+            return passou2;
 
         }
 
         public string trocarMarchar3()
         {
-            Marcha2 = true;
-            string getMarcha3 = Marcha3 ? "Passou a 3 Marchar" : "Passou para o Neutro";
-            return getMarcha3;
+            // Marcha2 = true;
+            //string getMarcha3 = Marcha3 ? "Passou a 3 Marchar" : "Passou para o Neutro";
+            //return getMarcha3;
+            string passou3 = "passou a marcha " + marchas[3].ToString() + "";
+            return passou3;
+
+        }
+
+        public string trocarMarcharRe()
+        {
+            // Marcha2 = true;
+            //string getMarcha3 = Marcha3 ? "Passou a 3 Marchar" : "Passou para o Neutro";
+            //return getMarcha3;
+            string[] marchas = new string[7]; // Cria um array de strings com tamanho 7
+            marchas[6] = "Ré";
+            string passou6 = " passou a marcha " + marchas[6];
+            return passou6;
+
+
+        }
+
+        public string trocarMarchaNeutra()
+        {
+            // Marcha2 = true;
+            //string getMarcha3 = Marcha3 ? "Passou a 3 Marchar" : "Passou para o Neutro";
+            //return getMarcha3;
+            string[] marchas = new string[1]; // Cria um array de strings com tamanho 7
+            marchas[0] = "Neutra";
+            string passou0 = "passou a marcha " + marchas[0];
+            return passou0;
+
 
         }
 
 
         public string Movimentar()
         {
-            Marcha2 = true;
-            Marcha3 = true;
-            Marcha4 = true;
-
+      
             return "O carro está em movimento.";
      
         }

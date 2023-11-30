@@ -5,3 +5,10 @@ C:\Users\donin\OneDrive\Área de Trabalho\.net\MundodasClasses\MundodasClasses\b
 C:\Users\donin\OneDrive\Área de Trabalho\.net\MundodasClasses\MundodasClasses\bin\Debug\MundodasClasses.pdb
 C:\Users\donin\OneDrive\Área de Trabalho\.net\MundodasClasses\MundodasClasses\obj\Debug\MundodasClasses.exe
 C:\Users\donin\OneDrive\Área de Trabalho\.net\MundodasClasses\MundodasClasses\obj\Debug\MundodasClasses.pdb
+C:\Users\Daniel\Desktop\curso_daniel\.net\dotnetMundoClasses\MundodasClasses\bin\Debug\MundodasClasses.exe.config
+C:\Users\Daniel\Desktop\curso_daniel\.net\dotnetMundoClasses\MundodasClasses\bin\Debug\MundodasClasses.exe
+C:\Users\Daniel\Desktop\curso_daniel\.net\dotnetMundoClasses\MundodasClasses\bin\Debug\MundodasClasses.pdb
+C:\Users\Daniel\Desktop\curso_daniel\.net\dotnetMundoClasses\MundodasClasses\obj\Debug\MundodasClasses.csproj.AssemblyReference.cache
+C:\Users\Daniel\Desktop\curso_daniel\.net\dotnetMundoClasses\MundodasClasses\obj\Debug\MundodasClasses.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Desktop\curso_daniel\.net\dotnetMundoClasses\MundodasClasses\obj\Debug\MundodasClasses.exe
+C:\Users\Daniel\Desktop\curso_daniel\.net\dotnetMundoClasses\MundodasClasses\obj\Debug\MundodasClasses.pdb
